@@ -115,26 +115,27 @@ figcaption {
     font-size: 12px;
     line-height: 16px;
     padding-top: 8px;
-    color:grey;
+    color:Grey;
 }
 
 hr {
     border: 0;
     height: 1px;
-    background: lightgrey;
+    background: LightGrey;
     margin: 0 0 24px;
 }
 
 a {
-
+    color: RoyalBlue;
+    transition: all .1s ease-in-out;
 }
 
 a:hover,
 a:focus {
-
+    color: Crimson;
 }
 
-a:visited,
-a:active {
-    
+a:active,
+a:visited{
+    color:BlueViolet;
 }
